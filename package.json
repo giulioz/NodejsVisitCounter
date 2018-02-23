@@ -1,0 +1,7 @@
+{
+	"name": "nodejsvisitcounter",
+	"dependencies": {
+		"express": "^4.16.2",
+		"node-persist": "^2.1.0"
+	}
+}
