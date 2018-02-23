@@ -7,6 +7,7 @@ var counter = 0;
 
 // Create a new Express app instance
 var app = express();
+app.use(express.static('./static'));
 
 // Registers an event triggered on HTTP GET /visit
 app.get("/visit", (req, res) => {
